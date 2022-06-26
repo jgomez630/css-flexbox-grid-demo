@@ -5,6 +5,12 @@ body {
   font-family: "Source Sans Pro", sans-serif;
 }
 
+@media only screen and (max-width: 480px) {
+  .header {
+    width: 100vw;
+  }
+}
+
 .header {
   padding: 0 45px;
   background-color: #283593;
